@@ -15,7 +15,7 @@ const ProductCard = (props: Props) => {
 
   return (
     <div className="card" style={{ width: '24rem' }}>
-      <HeaderImage image={image} />
+      <HeaderImage image={image} name={name} />
       <CardBody
         name={name}
         price={price}
